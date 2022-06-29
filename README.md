@@ -19,4 +19,4 @@ More information about predicting the 3D stucture of a single-stranded DNA, incl
 
 Thank you for using dnaTurner and good luck in your research!
 
-This software is inspired by the [work](https://github.com/iGEM-NU-Kazakhstan/dnaTurner) of INSA-Lyon iGEM team (2016).
+This software is inspired by the [work](https://github.com/ia2c/aptamers) of INSA-Lyon iGEM team (2016).
