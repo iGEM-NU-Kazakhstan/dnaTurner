@@ -12,8 +12,8 @@ Before using the program, you need to have:
 Running dnaTurner:
   `python dnaTurner.py -i example.pdb -n example_name`
   
-And if you want to minimize right away:
-  `python dnaTurner.py -i example.pdb -n example_name -m '~/Desktop/aptamers/QRNAS'`
+And if you want to minimize right away, you need to indicate the path to the QRNA file in QRNAS directory:
+  `python dnaTurner.py -i example.pdb -n example_name -m '~/Desktop/aptamers/QRNAS/QRNA'`
   
 More information about predicting the 3D stucture of a single-stranded DNA can be found in our [wiki](wikk_igem_kz.com).
 
