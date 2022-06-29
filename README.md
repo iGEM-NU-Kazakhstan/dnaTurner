@@ -12,9 +12,10 @@ Before using the program, you need to have:
 Running dnaTurner:
   `python dnaTurner.py -i example.pdb -n example_name`
   
-And if you want to minimize right away, you need to indicate the path to the QRNA file in QRNAS directory:
-  `python dnaTurner.py -i example.pdb -n example_name -m '~/Desktop/aptamers/QRNAS/QRNA'`
-  
+And if you want to minimize right away, you need to indicate the path to the QRNA file in QRNAS directory:  
+`python dnaTurner.py -i example.pdb -n example_name -m '~/Desktop/aptamers/QRNAS/QRNA'`  
+(The minimization of the structure is strongly recommended to obtain a more accurate prediction. If you don't do it with dnaTurner, we encourage you to do it using other tools.) 
+
 More information about predicting the 3D stucture of a single-stranded DNA, including the description of the hole method, can be found in our [wiki](wikk_igem_kz.com). 
 
 Thank you for using dnaTurner and good luck in your research!
