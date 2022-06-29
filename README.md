@@ -1,7 +1,7 @@
 # dnaTurner
-A python program to obtain a 3D structure of a single-stranded DNA sequence from that of a corresponding RNA sequence.
+A python program to obtain a 3D structure of a single-stranded DNA (ssDNA) sequence from the 3D structure a corresponding RNA sequence.
 
-The program can be useful when predicting a 3D structure of a single-stranded DNA. Due to the lack of tools that predict it directly, one way to do it is to make its corresponding RNA sequence by changing 'T' letters to 'U', then predict the 3D structure of the RNA using many available tools, change the RNA's 3D structure (pdb file) to make it a single-stranded DNA, and refine the changed structure via minimization. 
+Due to the lack of tools that predict the structure of ssDNA sequences directly, one way to do it is to make its corresponding RNA sequence by changing 'T' letters to 'U', then predict the 3D structure of the RNA using available tools, then change the RNA's 3D structure (pdb file) to make it a single-stranded DNA, and refine the changed structure via minimization. 
 
 dnaTurner is designed to do the last two steps.
 
@@ -15,6 +15,6 @@ Running dnaTurner:
 And if you want to minimize right away, you need to indicate the path to the QRNA file in QRNAS directory:
   `python dnaTurner.py -i example.pdb -n example_name -m '~/Desktop/aptamers/QRNAS/QRNA'`
   
-More information about predicting the 3D stucture of a single-stranded DNA can be found in our [wiki](wikk_igem_kz.com).
+More information about predicting the 3D stucture of a single-stranded DNA, including the description of the hole method, can be found in our [wiki](wikk_igem_kz.com).
 
-Thank you for uing dnaTurner and good luck in your research!
+Thank you for using dnaTurner and good luck in your research!
