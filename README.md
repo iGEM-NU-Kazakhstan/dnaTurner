@@ -6,7 +6,7 @@ Due to the lack of tools that predict the structure of ssDNA sequences directly,
 dnaTurner is designed to do the last two steps.
 
 Before using the program, you need to have:
-  - A pdb file of the corresponding RNA sequence (the same sequence, only with 'T'-s changed to 'U')
+  - A pdb file of the corresponding RNA sequence (the same sequence, only with 'T'-s changed to 'U').
   - If you want to minimize the created 3D structure right away, you need to have [QRNAS](http://genesilico.pl/software/stand-alone/qrnas) installed.
   
 Running dnaTurner:
